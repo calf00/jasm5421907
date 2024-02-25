@@ -1,0 +1,66 @@
+h1 {
+    font-family: '源ノ角ゴシック', 'Hiragino Kaku Gothic Pro', 'Yu Mincho', sans-serif;
+    color:rgba(229, 116, 207, 0.658);
+    font-size: medium;
+}
+h2 {
+    font-family: '源ノ角ゴシック', 'Hiragino Kaku Gothic Pro', 'Yu Mincho', sans-serif;
+    color:rgba(72, 114, 203, 0.785);
+}
+h3 {
+    font-family: '源ノ角ゴシック', 'Hiragino Kaku Gothic Pro', 'Yu Mincho', sans-serif;
+    color:rgba(171, 36, 36, 0.785);
+}
+
+
+body {
+    background-image: url('dx.jpg');
+    margin: 40px;
+    padding: 30;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #8b7b8883; 
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(32, 40, 149);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #84c28391;
+    color: rgb(80, 44, 124);
+}
+
+
+
+.content {
+    padding: 40px;
+    margin: 0 auto;
+    background-color: #ffffffb7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fit-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+.python-code {
+  background-color: #f7f7f7e0; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+  display: block;
+  white-space: pre-wrap;
+  word-break: break-all;
+  overflow-x: auto;
+}

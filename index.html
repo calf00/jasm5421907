@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>ポートフォリオ</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+        
+        <header>
+            <div class="navbar">
+                <a href="index.html">ホーム</a>
+                <a href="naiyou.html">研究内容</a>
+                <a href="dx.html">研究室DX！</a>
+                <a href="機械学習.html">機械学習</a>
+                <a href="design.html">UI/デザイン</a>
+            </div>
+        </header>
+
+        <script>
+            // 最初のdocument~~でドキュメントの準備が終了したらそれ以下発動する．
+            $(document).ready(function() {
+                $('.fit-image').hover(
+                    function() {
+                        // マウスオーバー
+                        $(this).css('transform', 'scale(2)');
+                    },
+                    function() {
+                        // マウスアウト
+                        $(this).css('transform', 'scale(1)');
+                    }
+                );
+            });
+        </script>
+
+        <div class="content">
+            <h1>ポートフォリオ</h1>
+            <h2>愛媛大学_理工学研究科_材料系  永田航士</h2>
+            <h3>閲覧いただきありがとうございます! 上のメニューバーから移動して，閲覧ください！</h3>
+            <p>＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿</p>
+            <p>研究概要</p>
+            <p>研究概要水素液化を目的とした磁気冷凍材料の開発</p>
+            <img src="c.png" class="fit-image">
+            <p>2025年の業界地図に注目業界として"水素・アンモニア"が掲載！</p>
+        </div>
+
+    </body>
+
+</html>

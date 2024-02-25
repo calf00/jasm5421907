@@ -1,0 +1,51 @@
+h1 {
+    font-family: '源ノ角ゴシック', 'Hiragino Kaku Gothic Pro', 'Yu Mincho', sans-serif;
+    color:rgba(229, 116, 207, 0.658);
+    font-size: medium;
+}
+h2 {
+    font-family: '源ノ角ゴシック', 'Hiragino Kaku Gothic Pro', 'Yu Mincho', sans-serif;
+    color:rgba(168, 91, 151, 0.785);
+}
+h3 {
+    font-family: '源ノ角ゴシック', 'Hiragino Kaku Gothic Pro', 'Yu Mincho', sans-serif;
+    color:rgba(171, 36, 36, 0.785);
+}
+
+body {
+    background-image: url('b.jpg');
+    margin: 40px;
+    padding: 30;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #ce92c383; 
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: rgb(149, 32, 32);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #84c28391;
+    color: rgb(80, 44, 124);
+}
+
+.fit-image {
+    max-width: 100%;
+    height: auto;
+  }
+
+.content {
+    padding: 40px;
+    margin: 0 auto;
+    background-color: #ffffffb7;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
